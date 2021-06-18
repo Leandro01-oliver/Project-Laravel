@@ -11,6 +11,6 @@ class ExibProdutoController extends Controller
     {
         $tb_produto = Tb_Produto::all();
 
-        return view('site.exib_produto' . ['tb_produto' => $tb_produto]);
+        return view('api.site.exib_produto' . ['tb_produto' => $tb_produto]);
     }
 }

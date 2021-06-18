@@ -11,6 +11,6 @@ class ExibClienteController extends Controller
     {
         $tb_cliente =  Tb_Cliente::all();
 
-        return view('site.exib_cliente' . ['tb_cliente' => $tb_cliente]);
+        return view('api.site.exib_cliente' . ['tb_cliente' => $tb_cliente]);
     }
 }

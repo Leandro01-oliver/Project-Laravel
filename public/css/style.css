@@ -1,0 +1,277 @@
+ * {
+     padding: 0;
+     margin: 0;
+     border: 0;
+     box-sizing: border-box;
+ }
+
+ html, body {
+     min-height: 100vh;
+     background-image: url("../../images/imagem_background_aula04.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }
+
+ h1 {
+     font-size: 30px
+ }
+
+ .card {
+     border-radius: 2rem;
+     box-shadow: 0px 0px 20px 0px #000;
+     padding: 2%
+ }
+
+ .btn_cad_produto {
+     width: 70%;
+     background: linear-gradient(65deg, red, yellow);
+     color: #000;
+     border-radius: 5rem;
+     border: 2px solid #000;
+     font-weight: 500px;
+     font-size: 17px;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
+ }
+
+ .link_cad_clientes {
+     background: linear-gradient(65deg, red, yellow);
+     color: #000;
+     border-radius: 5rem;
+     border: 2px solid #000;
+     font-weight: 500px;
+     font-size: 17px;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
+ }
+
+ .link_cad_produtos {
+     background: linear-gradient(65deg, red, yellow);
+     color: #000;
+     border-radius: 5rem;
+     border: 2px solid #000;
+     font-weight: 500px;
+     font-size: 17px;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
+ }
+
+ .link_page {
+     background: linear-gradient(65deg, red, yellow);
+     color: #000;
+     border-radius: 5rem;
+     border: 2px solid #000;
+     font-weight: 500px;
+     font-size: 17px;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
+ }
+
+ .btn_cad_produto:hover {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
+ }
+
+ .link_cad_clientes:hover {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+ }
+
+ .link_cad_produtos:hover {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+ }
+
+ .link_cad_clientes:hover {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
+ }
+
+ .link_page:hover {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
+ }
+
+ .btn_cad_produto:focus {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
+ }
+
+ .link_cad_produtos:focus {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+     box-shadow: 0px 0px 0px 0px transparent !important;
+ }
+
+ .link_cad_clientes:focus {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+     box-shadow: 0px 0px 0px 0px transparent !important;
+ }
+
+ .link_page:focus {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+     box-shadow: 0px 0px 0px 0px transparent !important;
+ }
+
+ .align_label {
+     font-size: 17px;
+     font-weight: 500px;
+     padding-left: 1.3rem !important;
+ }
+
+ .forms {
+     font-size: 15px;
+     border: 2px solid #ced4da;
+     box-shadow: none;
+     border-radius: 5rem;
+     padding-left: 1.3rem !important;
+ }
+
+ .forms:hover {
+     box-shadow: none;
+     border: 2px solid #000;
+ }
+
+ .forms:focus {
+     box-shadow: none;
+     border: 2px solid #000;
+ }
+
+ .forms_text {
+     font-size: 15px;
+     border: 2px solid #ced4da;
+     box-shadow: none;
+     border-radius: 0.5rem;
+     padding-left: 1.3rem !important;
+     resize: none;
+ }
+
+ .forms_text:hover {
+     box-shadow: none;
+     border: 2px solid #000;
+ }
+
+ .forms_text:focus {
+     box-shadow: none;
+     border: 2px solid #000;
+ }
+
+ .alig_custom_form {
+     min-height: 100vh;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .alig_pages {
+     min-height: 100vh;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .redirection_page {
+     padding: 1.25%;
+ }
+
+ hr {
+     height: 4px !important;
+     background-color: #000;
+     opacity: 100%;
+     width: 85%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .alig_form {
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+ }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+
+ @media (max-width: 575.98px) {
+     .alig_form {
+         width: 250px;
+     }
+     .forms_text {
+         height: 65px;
+     }
+     .nav-item {
+         margin-top: .75rem!important;
+         margin-bottom: .75rem!important;
+     }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .alig_form {
+         width: 400px;
+     }
+     .forms_text {
+         height: 80px;
+     }
+     .nav-item {
+         margin-top: .75rem!important;
+         margin-bottom: .75rem!important;
+     }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     .alig_form {
+         width: 450px;
+     }
+     .forms_text {
+         height: 95px;
+     }
+     .nav-item {
+         margin-top: .75rem!important;
+         margin-bottom: .75rem!important;
+     }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     .alig_form {
+         width: 550px;
+     }
+     .forms_text {
+         height: 110px;
+     }
+     .nav-item {
+         margin-right: .5rem!important;
+         margin-left: .5rem!important;
+     }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+
+ @media (min-width: 1200px) {
+     .alig_form {
+         width: 550px;
+     }
+     .forms_text {
+         height: 110px;
+     }
+     .nav-item {
+         margin-right: .5rem!important;
+         margin-left: .5rem!important;
+     }
+ }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTbClienteTable extends Migration
+class CreateClientesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateTbClienteTable extends Migration
      */
     public function up()
     {
-        Schema::create('tb_cliente', function (Blueprint $table) {
+        Schema::create('clientes', function (Blueprint $table) {
             $table->integer('id_cliente', true);
             $table->string('nm', 100);
             $table->string('email', 60);
@@ -28,7 +28,7 @@ class CreateTbClienteTable extends Migration
             $table->string('bairro', 100);
             $table->string('cidade', 50);
             $table->string('uf', 50);
-            $table->double('rm');
+            $table->string('rm', 100);
             $table->timestamps();
         });
     }
@@ -40,6 +40,6 @@ class CreateTbClienteTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tb_cliente');
+        Schema::dropIfExists('clientes');
     }
 }

@@ -2,11 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-
-Route::get('/', [App\Http\Controllers\HomePageController::class, 'paginaprincipal']);
-Route::get('/cad_cliente', [App\Http\Controllers\CadastroClienteController::class, 'cadastrarcliente']);
-Route::get('/cad_produto', [App\Http\Controllers\CadastroProdutoController::class, 'cadastrarproduto']);
-Route::post('/save_cliente', [App\Http\Controllers\CadastroClienteController::class, 'store']);
-Route::post('/save_produto', [App\Http\Controllers\CadastroProdutoController::class, 'store']);
-Route::get('/exib_cliente', [App\Http\Controllers\ExibClienteController::class, 'exibclientes']);
-Route::get('/exib_produto', [App\Http\Controllers\ExibProdutoController::class, 'exibprodutos']);
+Route::get('/', [App\Http\Controllers\HomePageController::class, 'homepage']);
+Route::get('/clientes', [App\Http\Controllers\ClientesController::class, 'cliente']);
+Route::get('/produtos', [App\Http\Controllers\ProdutosController::class, 'produto']);
+Route::post('/save_cliente', [App\Http\Controllers\HomePageController::class, 'store']);
+Route::post('/save_produto', [App\Http\Controllers\HomePageController::class, 'store']);
+Route::get('/exib_cliente', [App\Http\Controllers\ExibClientesController::class, 'exibcliente']);
+Route::get('/exib_produto', [App\Http\Controllers\ExibProdutosControllerss::class, 'exibproduto']);

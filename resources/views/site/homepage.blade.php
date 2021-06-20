@@ -14,9 +14,10 @@
 </head>
 
 <body>
+
     <div class="container-fluid alig_pages text-center justify-content-center">
-        <a class="btn btn_cad_produto d-block mb-5 w-25 p-2" href="/cad_cliente">Cadastrar Clientes</a>
-        <a class="btn btn_cad_produto d-block w-25 p-2" href="/cad_produto">Cadastrar Produtos</a>
+        <a class="btn btn_cad_produto d-block mb-5 w-25 p-2" href="/clientes">Cadastrar Clientes</a>
+        <a class="btn btn_cad_produto d-block w-25 p-2" href="/produtos">Cadastrar Produtos</a>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 

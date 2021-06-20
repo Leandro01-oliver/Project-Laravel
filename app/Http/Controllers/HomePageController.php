@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 
 class HomePageController extends Controller
 {
-    public function paginaprincipal()
+    public function homepage()
     {
-        return view('site.home_page');
+
+        return view('site.homepage');
     }
 }

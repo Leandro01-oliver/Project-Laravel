@@ -25,16 +25,6 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
                     <ul class="navbar-nav   navbar-nav-scroll redirection_page ">
                         <li class="nav-item">
-                            <a href="/cad_cliente" class="btn   w-100 btn-primary link_cad_clientes">
-                                Cadastrar Clientes
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/cad_produto" class="btn  w-100 btn-primary link_cad_produtos">
-                                Cadastrar Produtos
-                            </a>
-                        </li>
-                        <li class="nav-item">
                             <a href="/" class="btn  w-100 btn-primary link_page">
                                 Voltar
                             </a>
@@ -44,7 +34,7 @@
             </div>
         </nav>
     </header>
-    
+
     <main>
         <section class="container-fluid alig_custom_form">
             <form action="save_cliente" method="POST" class="alig_form">

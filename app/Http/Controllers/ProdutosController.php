@@ -14,19 +14,19 @@ class ProdutosController extends Controller
         return view('site.produtos');
     }
 
-    public function store(Request  $request)
+    public function store(Request $request)
     {
 
-        $produto = new Produtos;
+        $produtos = new Produtos;
 
-        $produto->marca = $request->marca;
-        $produto->valor_u = $request->valor_u;
-        $produto->unidade_m = $request->unidade_m;
-        $produto->desc_produto = $request->desc_produto;
-        $produto->det_produto = $request->det_produto;
-        $produto->create_at = $request->create_at;
+        $produtos->marca            = $request->marca;
+        $produtos->valor_u          = $request->valor_u;
+        $produtos->unidade_m        = $request->unidade_m;
+        $produtos->desc_produto     = $request->desc_produto;
+        $produtos->det_produto      = $request->det_produto;
+        $produtos->created_at       = $request->created_at;
 
-        $produto->save();
+        $produtos->save();
 
         return redirect('/exib_produto');
     }

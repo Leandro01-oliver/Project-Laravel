@@ -37,7 +37,8 @@
 
     <main>
         <section class="container-fluid alig_custom_form">
-            <form action="save_cliente" method="POST" class="alig_form">
+            <form action="/cad_cliente" method="POST" class="alig_form">
+                @csrf
                 <div class="card ">
                     <div class="card-body">
                         <div class="text-center mt-3 ">
@@ -53,21 +54,21 @@
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="nm" name="nm"
-                                placeholder="Informe seu nome completo">
+                                placeholder="Informe seu nome completo" maxlength="100">
                         </div>
                         <div class="text-center mt-3">
                             <label for="email" class="">Email :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="email" class="form-control forms text-center" id="email" name="email"
-                                placeholder="Informe o seu email">
+                                placeholder="Informe o seu email" maxlength="60">
                         </div>
                         <div class="text-center mt-3">
                             <label for="nm_pai" class="">Nome do pai :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="nm_pai" name="nm_pai"
-                                placeholder="Informe o nome do seu pai">
+                                placeholder="Informe o nome do seu pai" maxlength="60">
                         </div>
                         <div class="text-center mt-3">
                             <label for="nm_mae" class="">Nome da mãe :</label>
@@ -148,6 +149,8 @@
                         </div>
                         <div class="text-center mt-4 mb-3">
                             <button type="submit" class="btn btn_cad_produto">Cadastrar</button>
+                            <input type="text" name="created_at" id="created_at" hidden
+                                value="<?php echo date('d-m-Y H:s'); ?>">
                         </div>
                     </div>
                 </div>
@@ -164,8 +167,12 @@
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    </script>
     -->
 </body>
 

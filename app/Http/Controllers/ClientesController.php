@@ -12,29 +12,31 @@ class ClientesController extends Controller
 
         return view('site.clientes');
     }
+
     public function store(Request  $request)
     {
-        $cliente = new Clientes;
+        $clientes = new Clientes;
 
-        $cliente->nm = $request->nm;
-        $cliente->email = $request->email;
-        $cliente->nm_pai = $request->nm_pai;
-        $cliente->nm_mae = $request->nm_mae;
-        $cliente->dt_nascimento = $request->dt_nascimento;
-        $cliente->telefone = $request->telefone;
-        $cliente->cpf = $request->cpf;
-        $cliente->rg = $request->rg;
-        $cliente->cep = $request->cep;
-        $cliente->rua = $request->rua;
-        $cliente->bairro = $request->bairro;
-        $cliente->cidade = $request->cidade;
-        $cliente->rm = $request->rm;
-        $cliente->uf = $request->uf;
-        $cliente->create_at = $request->create_at;
+        $clientes->nm                = $request->nm;
+        $clientes->email             = $request->email;
+        $clientes->nm_pai            = $request->nm_pai;
+        $clientes->nm_mae            = $request->nm_mae;
+        $clientes->dt_nascimento     = $request->dt_nascimento;
+        $clientes->telefone          = $request->telefone;
+        $clientes->cpf               = $request->cpf;
+        $clientes->rg                = $request->rg;
+        $clientes->cep               = $request->cep;
+        $clientes->rua               = $request->rua;
+        $clientes->bairro            = $request->bairro;
+        $clientes->cidade            = $request->cidade;
+        $clientes->rm                = $request->rm;
+        $clientes->uf                = $request->uf;
+        $clientes->created_at         = $request->created_at;
 
-        $cliente->save();
+
+
+        $clientes->save();
 
         return redirect('/exib_cliente');
-      
     }
 }

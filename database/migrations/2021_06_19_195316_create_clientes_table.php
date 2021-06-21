@@ -21,8 +21,8 @@ class CreateClientesTable extends Migration
             $table->string('nm_mae', 60);
             $table->date('dt_nascimento');
             $table->string('telefone', 15);
-            $table->string('cpf', 11);
-            $table->string('rg', 7);
+            $table->string('cpf', 14);
+            $table->string('rg', 25);
             $table->string('cep', 10);
             $table->string('rua', 100);
             $table->string('bairro', 100);

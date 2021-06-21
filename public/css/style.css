@@ -22,7 +22,7 @@
      padding: 2%
  }
 
- .btn_cad_produto {
+ .btn_exib_cad {
      width: 70%;
      background: linear-gradient(65deg, red, yellow);
      color: #000;
@@ -33,24 +33,18 @@
      box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
  }
 
- .link_cad_clientes {
-     background: linear-gradient(65deg, red, yellow);
-     color: #000;
-     border-radius: 5rem;
+ .btn_exib_cad:hover {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
      border: 2px solid #000;
-     font-weight: 500px;
-     font-size: 17px;
-     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
  }
 
- .link_cad_produtos {
-     background: linear-gradient(65deg, red, yellow);
-     color: #000;
-     border-radius: 5rem;
+ .btn_exib_cad:focus {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
      border: 2px solid #000;
-     font-weight: 500px;
-     font-size: 17px;
-     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
  }
 
  .link_page {
@@ -63,32 +57,6 @@
      box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
  }
 
- .btn_cad_produto:hover {
-     background: linear-gradient(65deg, yellow, red);
-     color: #fff;
-     border: 2px solid #000;
-     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
- }
-
- .link_cad_clientes:hover {
-     background: linear-gradient(65deg, yellow, red);
-     color: #fff;
-     border: 2px solid #000;
- }
-
- .link_cad_produtos:hover {
-     background: linear-gradient(65deg, yellow, red);
-     color: #fff;
-     border: 2px solid #000;
- }
-
- .link_cad_clientes:hover {
-     background: linear-gradient(65deg, yellow, red);
-     color: #fff;
-     border: 2px solid #000;
-     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
- }
-
  .link_page:hover {
      background: linear-gradient(65deg, yellow, red);
      color: #fff;
@@ -96,28 +64,55 @@
      box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
  }
 
- .btn_cad_produto:focus {
+ .link_page:focus {
+     background: linear-gradient(65deg, yellow, red);
+     color: #fff;
+     border: 2px solid #000;
+     box-shadow: 0px 0px 0px 0px transparent !important;
+ }
+
+ .btn_direct_cad {
+     background: linear-gradient(65deg, red, yellow);
+     color: #000;
+     border-radius: 5rem;
+     border: 2px solid #000;
+     font-weight: 500px;
+     font-size: 17px;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
+ }
+
+ .btn_direct_cad:hover {
      background: linear-gradient(65deg, yellow, red);
      color: #fff;
      border: 2px solid #000;
      box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
  }
 
- .link_cad_produtos:focus {
+ .btn_direct_cad:focus {
      background: linear-gradient(65deg, yellow, red);
      color: #fff;
      border: 2px solid #000;
      box-shadow: 0px 0px 0px 0px transparent !important;
  }
 
- .link_cad_clientes:focus {
+ .btn_cad {
+     background: linear-gradient(65deg, red, yellow);
+     color: #000;
+     border-radius: 5rem;
+     border: 2px solid #000;
+     font-weight: 500px;
+     font-size: 17px;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438);
+ }
+
+ .btn_cad:hover {
      background: linear-gradient(65deg, yellow, red);
      color: #fff;
      border: 2px solid #000;
-     box-shadow: 0px 0px 0px 0px transparent !important;
+     box-shadow: 0px 7px 5px 0px rgba(49, 49, 49, 0.438)
  }
 
- .link_page:focus {
+ .btn_cad:focus {
      background: linear-gradient(65deg, yellow, red);
      color: #fff;
      border: 2px solid #000;
@@ -201,12 +196,12 @@
  .div1::-webkit-scrollbar {
      width: 15px;
      border-radius: 5rem;
-     background-color: rgba(41, 39, 39, 0.5);
+     background-color: rgba(41, 39, 39, 0.178);
  }
 
  .div1::-webkit-scrollbar-thumb {
      border-radius: 5rem;
-     background-color: rgba(35, 38, 204, 0.363);
+     background-color: rgba(255, 255, 255, 0.781);
  }
 
  .div2 {
@@ -219,19 +214,31 @@
  }
 
  thead {
-     border: 2.5px solid blue;
+     border: 2.5px solid #000;
  }
 
  th {
-     border: 2.5px solid blue;
+     border: 2.5px solid #000;
  }
 
  td {
-     border: 2.5px solid blue;
+     border: 2.5px solid #000;
  }
 
  tbody {
-     border: 2.5px solid blue;
+     border: 2.5px solid #000;
+ }
+
+ .exib_list_cad {
+     color: #fff;
+ }
+
+ .line_exib_cad {
+     height: 2.5px;
+     border-radius: 5rem;
+     background-color: #fff;
+     padding: 0rem !important;
+     margin-top: 0rem !important;
  }
 
  hr {
@@ -254,8 +261,17 @@
      .alig_form {
          width: 250px;
      }
+     .link_page {
+         width: 100%;
+     }
      .forms_text {
          height: 65px;
+     }
+     .btn_exib_cad {
+         width: 75%;
+     }
+     .btn_cad {
+         width: 70%;
      }
      .nav-item {
          margin-top: .75rem!important;
@@ -263,6 +279,22 @@
      }
      .div2 {
          width: 1200%;
+     }
+     .line_exib_cad {
+         width: 95%;
+     }
+     .exib_list_cad {
+         font-size: 16px;
+     }
+     th {
+         font-size: 12px;
+     }
+     td {
+         font-size: 12px;
+     }
+     .btn_direct_cad {
+         width: 70%;
+         font-size: 14px;
      }
  }
 
@@ -272,6 +304,9 @@
      .alig_form {
          width: 400px;
      }
+     .link_page {
+         width: 100%;
+     }
      .forms_text {
          height: 80px;
      }
@@ -279,8 +314,30 @@
          margin-top: .75rem!important;
          margin-bottom: .75rem!important;
      }
+     .btn_exib_cad {
+         width: 60%;
+     }
+     .btn_cad {
+         width: 55%;
+     }
      .div2 {
          width: 650%;
+     }
+     .line_exib_cad {
+         width: 85%;
+     }
+     .exib_list_cad {
+         font-size: 20px;
+     }
+     th {
+         font-size: 14px;
+     }
+     td {
+         font-size: 14px;
+     }
+     .btn_direct_cad {
+         width: 60%;
+         font-size: 16px;
      }
  }
 
@@ -290,8 +347,17 @@
      .alig_form {
          width: 450px;
      }
+     .link_page {
+         width: 100%;
+     }
      .forms_text {
          height: 95px;
+     }
+     .btn_exib_cad {
+         width: 45%;
+     }
+     .btn_cad {
+         width: 60%;
      }
      .nav-item {
          margin-top: .75rem!important;
@@ -300,6 +366,22 @@
      .div2 {
          width: 600%;
      }
+     .line_exib_cad {
+         width: 65%;
+     }
+     .exib_list_cad {
+         font-size: 25px;
+     }
+     th {
+         font-size: 15px;
+     }
+     td {
+         font-size: 15px;
+     }
+     .btn_direct_cad {
+         width: 40%;
+         font-size: 18px;
+     }
  }
 
  /* Large devices (desktops, 992px and up) */
@@ -307,6 +389,9 @@
  @media (min-width: 992px) and (max-width: 1199.98px) {
      .alig_form {
          width: 550px;
+     }
+     .link_page {
+         width: 150%;
      }
      .forms_text {
          height: 110px;
@@ -317,6 +402,28 @@
      }
      .div2 {
          width: 500%;
+     }
+     .line_exib_cad {
+         width: 55%;
+     }
+     .exib_list_cad {
+         font-size: 30px;
+     }
+     th {
+         font-size: 17px;
+     }
+     td {
+         font-size: 17px;
+     }
+     .btn_direct_cad {
+         width: 30%;
+         font-size: 19px;
+     }
+     .btn_exib_cad {
+         width: 40%;
+     }
+     .btn_cad {
+         width: 70%;
      }
  }
 
@@ -329,11 +436,36 @@
      .forms_text {
          height: 110px;
      }
+     .link_page {
+         width: 150%;
+     }
      .nav-item {
          margin-right: .5rem!important;
          margin-left: .5rem!important;
      }
      .div2 {
          width: 500%;
+     }
+     .line_exib_cad {
+         width: 50%;
+     }
+     .exib_list_cad {
+         font-size: 35px;
+     }
+     th {
+         font-size: 18px;
+     }
+     td {
+         font-size: 18px;
+     }
+     .btn_direct_cad {
+         width: 25%;
+         font-size: 20px;
+     }
+     .btn_exib_cad {
+         width: 40%;
+     }
+     .btn_cad {
+         width: 70%;
      }
  }

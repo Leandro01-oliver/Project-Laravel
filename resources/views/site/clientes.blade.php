@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
                     <ul class="navbar-nav   navbar-nav-scroll redirection_page ">
                         <li class="nav-item">
-                            <a href="/" class="btn  w-100 btn-primary link_page">
+                            <a href="/" class="btn  link_page">
                                 Voltar
                             </a>
                         </li>
@@ -148,7 +148,7 @@
                                 placeholder="Informe a sua renda mensal" maxlength="100">
                         </div>
                         <div class="text-center mt-4 mb-3">
-                            <button type="submit" class="btn btn_cad_produto">Cadastrar</button>
+                            <button type="submit" class="btn btn_cad">Cadastrar</button>
                             <input type="text" name="created_at" id="created_at" hidden
                                 value="<?php echo date('d-m-Y H:s'); ?>">
                         </div>

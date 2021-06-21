@@ -15,9 +15,9 @@
 
 <body>
     <section class="alig_pages ">
-        <h1 class="text-center mt-5">Listgem dos Clientes Cadastrados</h1>
-        <hr>
-        <div class=" div1 mb-5">
+        <h1 class="text-center mt-5 exib_list_cad">Listgem dos Clientes Cadastrados</h1>
+        <hr class="line_exib_cad">
+        <div class=" div1 ">
             <table class="table table-dark table-responsive table-hover table-striped div2 text-center">
                 <thead>
                     <tr>
@@ -66,7 +66,7 @@
                 </tbody>
             </table>
         </div>
-        <a class="btn btn_cad_produto d-block mb-5 w-25 p-2" href="/clientes">Voltar a Cadastrar</a>
+        <a class="btn btn_exib_cad d-block mt-4 mb-5 p-2" href="/clientes">Voltar a Cadastrar</a>
     </section>
     <!-- Optional JavaScript; choose one of the two! -->
 

@@ -75,7 +75,7 @@
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="nm_mae" name="nm_mae"
-                                placeholder="Informe o nome da sua mãe">
+                                placeholder="Informe o nome da sua mãe" maxlength="60">
                         </div>
                         <div class="text-center mt-3">
                             <label for="dt_nascimento" class="">Data de Nascimento :</label>
@@ -89,63 +89,63 @@
                         </div>
                         <div class="text-center mt-2">
                             <input type="tel" class="form-control forms text-center" id="telefone" name="telefone"
-                                placeholder="Informe o seu telefone">
+                                placeholder="Informe o seu telefone" maxlength="15">
                         </div>
                         <div class="text-center mt-3">
                             <label for="cpf" class="">CPF :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="cpf" name="cpf"
-                                placeholder="Informe o seu CPF">
+                                placeholder="Informe o seu CPF" maxlength="14">
                         </div>
                         <div class="text-center mt-3">
                             <label for="rg" class="">RG :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="rg" name="rg"
-                                placeholder="Informe o seu CPF">
+                                placeholder="Informe o seu RG">
                         </div>
                         <div class="text-center mt-3">
                             <label for="cep" class="">CEP :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="cep" name="cep"
-                                placeholder="Informe o seu CEP">
+                                placeholder="Informe o seu CEP" maxlength="25">
                         </div>
                         <div class="text-center mt-3">
                             <label for="rua" class="">Rua :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="rua" name="rua"
-                                placeholder="Informe a sua rua">
+                                placeholder="Informe a sua rua" maxlength="100">
                         </div>
                         <div class="text-center mt-3">
                             <label for="bairro" class="">Bairro :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="bairro" name="bairro"
-                                placeholder="Informe o seu bairro">
+                                placeholder="Informe o seu bairro" maxlength="100">
                         </div>
                         <div class="text-center mt-3">
                             <label for="cidade" class="">Cidade :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="cidade" name="cidade"
-                                placeholder="Informe a sua cidade">
+                                placeholder="Informe a sua cidade" maxlength="50">
                         </div>
                         <div class="text-center mt-3">
                             <label for="uf" class="">UF :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="uf" name="uf"
-                                placeholder="Informe o seu estado ex. Rondônia - (RO)">
+                                placeholder="Informe o seu estado ex. Rondônia - (RO)" maxlength="50">
                         </div>
                         <div class="text-center mt-3">
                             <label for="rm" class="">Renda Mensal :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="rm" name="rm"
-                                placeholder="Informe a sua renda mensal">
+                                placeholder="Informe a sua renda mensal" maxlength="100">
                         </div>
                         <div class="text-center mt-4 mb-3">
                             <button type="submit" class="btn btn_cad_produto">Cadastrar</button>

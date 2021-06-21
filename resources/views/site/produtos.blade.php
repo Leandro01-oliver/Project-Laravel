@@ -48,41 +48,41 @@
                             <hr>
                         </div>
                         <div class="text-center mt-3">
-                            <label for="form_m" class="">
+                            <label for="marca" class="">
                                 Marca do Produto:
                             </label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="marca" name="marca"
-                                placeholder="Informe a marca do seu produto">
+                                placeholder="Informe a marca do seu produto" maxlength="100">
                         </div>
                         <div class="text-center mt-3">
-                            <label for="form_vu" class="">Valor unitário do Produto :</label>
+                            <label for="valor_u" class="">Valor unitário do Produto :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="valor_u" name="valor_u"
-                                placeholder="Informe o valor unitário do produto ">
+                                placeholder="Informe o valor unitário do produto " maxlength="100">
                         </div>
                         <div class="text-center mt-3">
-                            <label for="form_um" class="">Unidade de Medida :</label>
+                            <label for="unidade_m" class="">Unidade de Medida :</label>
                         </div>
                         <div class="text-center mt-2">
                             <input type="text" class="form-control forms text-center" id="unidade_m" name="unidade_m"
-                                placeholder="Informe a unidade de medida do produto">
+                                placeholder="Informe a unidade de medida do produto" maxlength="100">
                         </div>
                         <div class="text-center mt-3">
-                            <label for="form_dp" class="">Descrição do Produto :</label>
+                            <label for="desc_produto" class="">Descrição do Produto :</label>
                         </div>
                         <div class="text-center mt-2">
                             <textarea type="text" class="form-control forms_text" id="desc_produto" name="desc_produto"
-                                placeholder="Descreva o seu produto"></textarea>
+                                placeholder="Descreva o seu produto" maxlength="100"></textarea>
                         </div>
                         <div class="text-center mt-3">
-                            <label for="form_d" class="">Detalhes do Produto :</label>
+                            <label for="det_produto" class="">Detalhes do Produto :</label>
                         </div>
                         <div class="text-center mt-2">
                             <textarea type="text" class="form-control forms_text" id="det_produto" name="det_produto""
-                            placeholder=" Detalhe o seu produto"></textarea>
+                            placeholder=" Detalhe o seu produto" maxlength="100"></textarea>
                         </div>
                         <div class="text-center mt-4 mb-3">
                             <button type="submit" class="btn btn_cad_produto">Cadastrar</button>

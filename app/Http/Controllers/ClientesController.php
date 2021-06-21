@@ -17,6 +17,7 @@ class ClientesController extends Controller
     {
         $clientes = new Clientes;
 
+        $clientes->id_cliente        = $request->id_cliente;
         $clientes->nm                = $request->nm;
         $clientes->email             = $request->email;
         $clientes->nm_pai            = $request->nm_pai;

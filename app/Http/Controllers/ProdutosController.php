@@ -19,6 +19,7 @@ class ProdutosController extends Controller
 
         $produtos = new Produtos;
 
+        $produtos->id_produto       = $request->id_produto;
         $produtos->marca            = $request->marca;
         $produtos->valor_u          = $request->valor_u;
         $produtos->unidade_m        = $request->unidade_m;

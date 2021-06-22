@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
+use App\Http\Requests\StoreClientesRequest;
 use App\Models\Clientes;
 
 class ClientesController extends Controller
@@ -13,8 +15,9 @@ class ClientesController extends Controller
         return view('site.clientes');
     }
 
-    public function store(Request  $request)
+    public function store(StoreClientesRequest  $request)
     {
+
         $clientes = new Clientes;
 
         $clientes->id_cliente        = $request->id_cliente;

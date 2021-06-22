@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Http\Requests\StoreProdutosRequest;
 use App\Models\Produtos;
 
 class ProdutosController extends Controller
@@ -14,7 +15,7 @@ class ProdutosController extends Controller
         return view('site.produtos');
     }
 
-    public function store(Request $request)
+    public function store(StoreProdutosRequest $request)
     {
 
         $produtos = new Produtos;

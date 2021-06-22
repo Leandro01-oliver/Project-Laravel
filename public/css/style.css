@@ -370,7 +370,7 @@
          width: 45%;
      }
      .line_cad {
-         width: 80%;
+         width: 90%;
      }
      .btn_cad {
          width: 60%;
@@ -399,7 +399,7 @@
          font-size: 18px;
      }
      .tilte_cad {
-         font-size: 24px;
+         font-size: 26px;
      }
  }
 
@@ -421,9 +421,6 @@
      }
      .div2 {
          width: 500%;
-     }
-     .line_cad {
-         width: 65%;
      }
      .line_exib_cad {
          width: 55%;
@@ -447,9 +444,6 @@
      .btn_cad {
          width: 70%;
      }
-     .tilte_cad {
-         font-size: 26px;
-     }
  }
 
  /* Extra large devices (large desktops, 1200px and up) */
@@ -463,9 +457,6 @@
      }
      .link_page {
          width: 150%;
-     }
-     .line_cad {
-         width: 65%;
      }
      .nav-item {
          margin-right: .5rem!important;
@@ -495,8 +486,5 @@
      }
      .btn_cad {
          width: 70%;
-     }
-     .tilte_cad {
-         font-size: 26px;
      }
  }

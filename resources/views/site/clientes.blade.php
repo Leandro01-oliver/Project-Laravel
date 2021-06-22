@@ -42,11 +42,11 @@
                 <div class="card ">
                     <div class="card-body">
                         <div class="text-center mt-3 ">
-                            <h1>
+                            <h1 class="tilte_cad">
                                 Cadastro de Clientes
                             </h1>
-                            <hr>
                         </div>
+                        <hr class="line_cad">
                         <div class="text-center mt-3">
                             <label for="nm" class="">
                                 Nome :

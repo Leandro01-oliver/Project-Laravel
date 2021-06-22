@@ -32,7 +32,7 @@ class ClientesController extends Controller
         $clientes->cidade            = $request->cidade;
         $clientes->rm                = $request->rm;
         $clientes->uf                = $request->uf;
-        $clientes->created_at         = $request->created_at;
+        $clientes->created_at        = $request->created_at;
 
 
 
